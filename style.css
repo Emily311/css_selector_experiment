@@ -1,0 +1,46 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FF6600;
+  font-family: courier;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #3300FF;
+  font-size: 4em;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF6600;
+  font-size: 0.5em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #FF6600;
+  font-size: 0.5em;
+  width:30vw;
+}
+
+p + p {
+  color: #ff0072;
+}
+
+p {
+    padding: 25px;
+}
+
+p:nth-child(2) {
+  background: #CC66FF;
+}
+
+p::first-letter {
+  color: #FFFFFF;
+}
